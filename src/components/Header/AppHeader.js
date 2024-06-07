@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import MainMenu from "../Menu/MainMenu";
 import SearchBox from "../SearchBox";
 import { Avatar, Typography } from "antd";
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/logo.png";
 
 function AppHeader() {
   return (
