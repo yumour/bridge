@@ -101,7 +101,7 @@ function Login() {
           >
             Log in
           </Button>
-          Or <a href="#">register now!</a> <br />
+          Or <a href="/">register now!</a> <br />
           Or <Link to="/">back to home page</Link>
         </Form.Item>
       </Form>
