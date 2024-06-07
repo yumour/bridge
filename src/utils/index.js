@@ -89,7 +89,7 @@ export default function useOnScreen(ref) {
       new IntersectionObserver(([entry]) =>
         setIntersecting(entry.isIntersecting)
       ),
-    [ref]
+    []
   );
 
   useEffect(() => {
