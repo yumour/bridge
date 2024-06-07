@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/your-repository-name/static/css/main.6fde415f.css",
+    "main.js": "/your-repository-name/static/js/main.9cbde6be.js",
+    "static/media/herobg.jpg": "/your-repository-name/static/media/herobg.06cd98e68dc0cd8be014.jpg",
+    "static/media/logo.svg": "/your-repository-name/static/media/logo.de8a5ea5992ac6188043829b52e71718.svg",
+    "static/media/bg-works.jpg": "/your-repository-name/static/media/bg-works.abd66d06d525eadfd24a.jpg",
+    "static/media/logo.png": "/your-repository-name/static/media/logo.5f629864fe4a5c7cc968.png",
+    "static/media/404_error.svg": "/your-repository-name/static/media/404_error.b60652b74466da8f788d4e7e1f714b9e.svg",
+    "static/media/shopping.svg": "/your-repository-name/static/media/shopping.b5860f26232bf8114d250bb1ac7b240c.svg",
+    "index.html": "/your-repository-name/index.html",
+    "main.6fde415f.css.map": "/your-repository-name/static/css/main.6fde415f.css.map",
+    "main.9cbde6be.js.map": "/your-repository-name/static/js/main.9cbde6be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fde415f.css",
+    "static/js/main.9cbde6be.js"
+  ]
+}
