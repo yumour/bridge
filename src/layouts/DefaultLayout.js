@@ -12,7 +12,6 @@ function DefaultLayout(props) {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
-  const [breadCrumbs, setBreadCrumbs] = useState([]);
 
   const headerStyle = {
     overflow: "hidden",
