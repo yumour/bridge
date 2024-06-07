@@ -45,29 +45,7 @@ function DefaultLayout(props) {
   };
 
   const params = useParams();
-  const cid = params.categoryId;
-  const pid = params.productId;
-
-  useEffect(() => {
-    if (!!cid) {
-      setBreadCrumbs([
-        { title: "Home", href: "/" },
-        { title: makeUpLabel(cid), href: `/products/categories/${cid}` },
-      ]);
-    } else if (!!pid) {
-      getSingleProduct(hashidsDecode(pid)).then((resp) => {
-        setBreadCrumbs([
-          { title: "Home", href: "/" },
-          {
-            title: makeUpLabel(resp.category),
-            href: `/products/categories/${resp.category}`,
-          },
-        ]);
-      });
-    } else {
-      setBreadCrumbs([{ title: "Home", href: "/" }]);
-    }
-  }, [cid, pid]);
+ 
 
   return (
     <App>
