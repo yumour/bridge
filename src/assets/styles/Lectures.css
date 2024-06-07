@@ -1,0 +1,43 @@
+.lectures-and-lessons-page {
+    padding: 20px;
+  }
+  
+  .lectures-and-lessons-page .ant-tabs {
+    margin-top: 20px;
+  }
+  
+  .lectures-and-lessons-page .ant-card {
+    width: 100%;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial shadow */
+  }
+  
+  .lectures-and-lessons-page .ant-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .lectures-and-lessons-page .ant-card-meta-title {
+    font-size: 1.5em;
+    white-space: nowrap;         /* Prevents the text from wrapping to the next line */
+    overflow: hidden;            /* Ensures the overflow text is hidden */
+    text-overflow: ellipsis;     /* Adds ellipsis (...) for overflowed text */
+  }
+  
+  .lectures-and-lessons-page .ant-card-meta-description p {
+    margin: 0;
+  }
+ /* Details  Pages styles*/
+  .lecture-detail-page {
+    padding: 50px;
+  }
+  
+  .lecture-detail-page .ant-tabs {
+    margin-top: 20px;
+  }
+  
+  .lecture-detail-page .video-container {
+    text-align: center;
+  }
+  

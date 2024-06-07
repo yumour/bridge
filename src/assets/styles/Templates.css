@@ -1,0 +1,16 @@
+.templates-page {
+    padding: 20px;
+  }
+  
+  .ant-card-cover img {
+    height: 200px; /* Set a fixed height for the cover images */
+    object-fit: cover; /* Ensure the images cover the area without distortion */
+  }
+  
+  .download-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
