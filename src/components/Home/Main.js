@@ -7,11 +7,11 @@ import Title from 'antd/es/typography/Title';
 const { Meta } = Card;
 
 const pages = [
-  { title: 'المذكرات', description: 'مذكرات و ابحاث تنقل بحثك لمتسوى اعلى ', link: '/thesis' },
-  { title: 'محاضرات ودروس', description: 'زد رصيدك المعرفي عبر  احسن اساتذة', link: '/lectures' },
-  { title: 'كتب', description: ' مكتبة عالية الجودة من اهم الكتب واشهرها', link: '/books' },
+  { title: 'المذكرات', description: 'مذكرات و ابحاث تنقل بحثك لمستوى اعلى ', link: '/thesis' },
+  { title: 'محاضرات ومقاييس', description: 'زد رصيدك المعرفي عبر احسن الاساتذة', link: '/lectures' },
+  { title: 'كتب', description: ' مكتبة عالية الجودة متخصصة في علم المجتمع', link: '/books' },
   { title: 'ملتقيات', description: 'اطلع على ما هو حديث الساعة في المجتمع العلمي', link: '/events' },
-  { title: 'نماذج', description: 'نماذج مختارة و منقحة لتحترف بحثك', link: '/templates' },
+  { title: 'نماذج', description: 'نماذج دكتوراه مختارة و منقحة لتحترف بحثك', link: '/templates' },
   { title: 'التواصل معنا', description: 'لنشر بحثك  او استفسار اتصل بنا', link: '/contact' }
 ];
 
