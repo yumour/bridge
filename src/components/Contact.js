@@ -60,11 +60,11 @@ const ContactUs = () => {
             <Paragraph>
               <strong>العنوان:</strong> Sidi Bel Abbes , ALgeria
             </Paragraph>
-            <Paragraph>
-              <strong>الرقم:</strong> 06 - XX - XX - XX
+           <Paragraph>
+              <strong>الرقم:</strong> 06-57-85-78-98
             </Paragraph>
             <Paragraph>
-              <strong>البريد الالكتروني:</strong> contact@example.com
+              <strong>البريد الالكتروني:</strong> djessrelmaarifa@gmail.com
             </Paragraph>
           </div>
         </Col>
