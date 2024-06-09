@@ -13,7 +13,7 @@ const templatesData = [
 const Templates = () => {
   return (
     <div className="templates-page">
-      <Title level={1 } >النماذج</Title>
+      <Title level={1 } >نماذج الدكتوراه</Title>
       <br/>
       <Row gutter={[16, 16]}>
         {templatesData.map(template => (
