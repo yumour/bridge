@@ -20,23 +20,23 @@ const booksData = [
     id: 1,
     title: "مناهج البحث في العلوم الاجتماعية والانسانية",
     author: "بوحوش عمار",
-    category: "علم الاجتماع",
+    category: "المنهجية",
     description: " ",
     cover: "/images/cover1.jpg",
     url : "/pdfs/book1.pdf"
   },
   {
     id: 2,
-    title: "علم نفس اللغة",
-    author: "موفق الحمداني",
-    category: "علم النفس",
+    title: "القانون والمجتمع: دراسة في علم الاجتماع القانوني عند إميل دوركايم",
+    author: "فيصل محمد البحيري",
+    category: "علم الاجتماع القانوني",
     description: "",
-    cover: "/images/cover2.jpg",
+    cover: "/images/cover3.jpg",
   },
   // Add more books here
 ];
 
-const categories = ["الكل", "علم الاجتماع", "علم النفس", "الاحصاء"];
+const categories = ["الكل", "المنهجية", "علم الاجتماع القانوني", "الاحصاء"];
 
 const Books = () => {
   const [searchTerm, setSearchTerm] = useState("");
