@@ -107,7 +107,7 @@ const Lectures = () => {
 
   return (
     <div className="lectures-and-lessons-page">
-      <Title level={1 } >المواد</Title>
+      <Title level={1 } >المقاييس</Title>
       
       <Tabs defaultActiveKey="licence2">
         <TabPane tab="Licence 2" key="licence2">
